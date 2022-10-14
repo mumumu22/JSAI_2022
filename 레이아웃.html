@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>레이아웃 만들기</title>
+    <style>
+    
+        html,body{
+            
+            height: 100%;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+     header{
+            width: 500px;
+            height: 50px;
+         background: #a8f9f7;
+         border-radius: 10px;
+         margin-bottom: 10px;}
+        
+        main{display:flex;
+            margin-bottom: 10px;
+        }
+        
+        nav1{
+        width: 120px;
+        height: 410px;
+        background: #d3fcfc;
+        border-radius: 10px;
+        margin-right: 10px;
+        }
+        
+        
+        article{
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+         
+        } 
+        article1{
+            text-align: left;
+        width: 200px;
+        height: 200px;
+        background: #3f9b9b;
+        border-radius: 10px;
+        margin-bottom: 10px;
+         
+        }
+         article2{
+        width: 200px;
+        height: 200px;
+        background: #3f9b9b;
+        border-radius: 10px;
+        
+         
+        }
+        nav2{
+            width: 150px;
+            height: 410px;
+            background: #3fc4c2;
+            border-radius: 10px;
+            
+        }
+        
+        
+        footer{
+        width: 500px;
+        height: 41px;
+        background: #0c6363;
+        border-radius: 10px;
+           
+        }
+    
+    
+    </style>
+    
+    
+</head>
+<body>
+    <div class="container">
+        <header>Musee d'Orsay</header>
+       <main>
+           <nav1><h3>ARIST</h3>작가의 작품<br>작가의시대<br>작가의일생</nav1>
+           <article>
+               <article1>피리부는소년<br>고흐의방
+               <br><u>황색 그리스도가 있는 화가의 자화상</u>
+                   <br><u>오페라좌의 관현악단</u>
+                   <br><u>만종</u>
+                   <br><u>제비꽃 장식을 단 베르트모리조</u>
+                   <br><u>피리부는 소년</u>
+               </article1>
+               <article2><br><u>고흐의방</u>
+                   <br><u>황색 그리스도가 있는 화가</u>
+                   <br><u>오페라좌의 관현악단</u>
+                   <br><u>만종</u>
+                   <br><u>제비꽃 장식을 단 베르트모리조</u>
+                   
+                   </article2>
+               
+               
+           </article>
+           <nav2><h3>전세계인들에게 제일 사랑받는 서양미술사의 시대</h3>
+           <br><u>Workshop Go <br> Summer Exhibition <br> RA Collection</u></nav2>
+          
+       </main>
+       
+       
+       <footer>2018Les Aris du nysee d'orsay.all rights reserved</footer>
+        
+        
+        
+    </div>
+    
+    
+</body>
+</html>
