@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>이동</title>
+    <style>
+    
+        div{
+            height: 200px;
+            width: 200px;}
+        
+        .container div{
+            border: 4px solid blue;
+            margin: 50px;
+        }
+        
+       
+        .transformed1{
+            background-color: aquamarine;
+            border-radius: 5px;
+            transition: transform 1s ease-in-out;}
+        .transformed1:hover{
+            transform: translate(50px)
+        }
+        .transformed2{
+            background-color: aquamarine;
+            border-radius: 5px;
+            transition: transform 1s ease-in-out;}
+        .transformed2:hover{
+            transform: translateY(50px)
+        }
+       .transformed3{
+            background-color: aquamarine;
+            border-radius: 5px;
+            transition: transform 1s ease-in-out;}
+        .transformed3:hover{
+            background-color: azure;
+            transform: translate(15px,-40px) scale(0.5);
+        }
+        .transformed4{
+            background-color: aquamarine;
+            border-radius: 5px;
+            transition: transform 1s ease-in-out;}
+        .transformed4:hover{
+            transform: translate(12px, 50%)
+        }
+        
+    </style>
+</head>
+<body>
+    
+   <div class="container">
+   <div class="transformed1">transformed</div>
+   <div class="transformed2">transformed</div>
+   <div class="transformed3">transformed</div>
+   <div class="transformed4">transformed</div>
+   
+    </div>
+    
+</body>
+</html>
