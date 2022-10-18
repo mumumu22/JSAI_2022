@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>뉴플렉스 만들기(로그인)</title>
+    <link rel="stylesheet" href="/ex8/css/global.css">
+    <style>
+@media (max-width: 1280px){
+body{background-color: darkgray;}
+
+}
+@media (max-width: 600px){
+body{background-color:darkmagenta;}
+
+}
+
+
+
+.login-title{
+text-align: center;
+
+}
+.login-title__maintext{
+font-size: 2.5rem;
+color: var(--purple);
+
+}
+.login-title__subtext{
+font-size: 0.9rem;
+font-weight: 100;
+
+}
+
+html,
+body{
+
+overflow: hidden;
+
+}
+.img{
+text-align: center;
+
+}
+
+
+
+.login-form{
+
+    display: flex;
+    flex-direction: column;
+    margin:1.5rem;
+}
+.login-form input{
+padding: 15px 0;
+margin: 0 10px;
+border: none;
+outline: none;
+appearance: none;
+background-color: var(--background-purple);
+font-size: 1em;
+}
+
+.login-form input:not([type="submit"]){
+color: white;
+border-bottom: 1px solid var(--border);
+transition: border-color 0.3s ease-in-out;
+
+}
+.login-form input:focus{
+border-color: white;
+
+}
+.login-form input[type="submit"]{
+
+color: white;
+background-color: var(--darkpurple);
+border-radius: 20px;
+margin-top: 2rem;
+transition: background-color 0.2s ease-in-out;
+
+}
+
+.login-form input [type="submit"]:active{
+background-color: var(--purple);
+
+}
+
+
+    </style>
+
+</head>
+<body>
+</body> 
+<div class="img">
+<img src="/ex8/img/bg2.png.jpg" alt="사진 안뜸" class="login-img">
+</div>
+<div class="login-title">
+<h1 class="login-title__maintext">Newflix</h1>
+<p class="login-title__subtext">
+새로운 OTT 뉴플렉스 등장! <br />
+지금 가입하면 무료!
+</p>
+</div>
+<form action="find.html" class="login-form">
+<input 
+name="username"
+type="text"
+required
+autocomplete="off"
+placeholder="ID">
+<input 
+name="password"
+type="password"
+required
+autocomplete="off"
+placeholder="PASSWORD">
+<input type="submit" value="접속하기">
+
+
+</form>
+
+
+
+
+</form>
+    
+</body>
+</html>

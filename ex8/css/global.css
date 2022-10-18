@@ -1,0 +1,43 @@
+
+
+@import"./reset.css";
+@import"./variable.css";
+@import'https://fonts.googleapis.com/css2?family=Cute+Font&family=Noto+Serif+KR&display=swap';
+@import "https://fonts.googleapis.com/icon?family=Material+Icons+Outlined";
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+
+ *{
+    box-sizing: border-box;  
+    
+    }
+    
+
+
+
+body{
+
+    font-family: 'Cute Font', cursive;
+    font-family: 'Noto Serif KR', serif;
+
+background-color:var(--background-purple);
+color:#fff;
+
+}
+
+input{
+
+    border: none;
+    outline: none;
+    appearance: none;
+}
+.display-flex-center{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.position-relative{
+position: relative;
+
+}
+
