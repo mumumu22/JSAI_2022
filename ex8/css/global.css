@@ -1,10 +1,11 @@
-
-
-@import"./reset.css";
-@import"./variable.css";
 @import'https://fonts.googleapis.com/css2?family=Cute+Font&family=Noto+Serif+KR&display=swap';
 @import "https://fonts.googleapis.com/icon?family=Material+Icons+Outlined";
 @import "https://fonts.googleapis.com/icon?family=Material+Icons";
+
+@import"./reset.css";
+@import"./variable.css";
+@import "./nevigation-bar.css";
+@import"./media-query.css";
 
  *{
     box-sizing: border-box;  
